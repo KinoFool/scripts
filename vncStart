@@ -1,0 +1,4 @@
+#!/bin/bash
+
+systemctl start|stop vncserver-x11-serviced.service
+systemctl start vncserver-virtuald.service

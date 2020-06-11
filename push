@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+### CLEAN ###
+mr
+make fclean
+
+### Commit ###
+read -r -p "Commit message: " com
+
+### Git ###
+git add -A
+git commit -m "$com"
+git push origin master
+
+#git push Hardcoder master
